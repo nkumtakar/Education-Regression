@@ -1,4 +1,4 @@
-Appendix:
+
 proc import datafile='/folders/myfolders/sasuser.v94/Project1/ProjectDataZ.xlsx' dbms= xlsx 
 out=ProN;
 /*proc contents data=ProN; */ 
