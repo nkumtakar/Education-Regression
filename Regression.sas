@@ -1,5 +1,5 @@
 
-proc import datafile='/folders/myfolders/sasuser.v94/Project1/EducationData.xlsx' dbms= xlsx 
+proc import datafile='/folders/myfolders/sasuser.v94/Project1/ProjectDataZ.xlsx' dbms= xlsx 
 out=ProN;
 /*proc contents data=ProN; */ 
 proc means data=ProN mean std clm; 
